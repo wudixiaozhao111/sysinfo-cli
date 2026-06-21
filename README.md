@@ -18,11 +18,21 @@ System information monitor for Linux servers - beautiful CLI tool.
 curl -fsSL https://raw.githubusercontent.com/wudixiaozhao111/sysinfo-cli/main/install.sh | bash
 ```
 
-### Via pip
+### Supported Distributions
 
-```bash
-pip3 install sysinfo-cli
-```
+| Distribution Family | Examples | Installation Method |
+|---------------------|----------|---------------------|
+| Debian/Ubuntu | Ubuntu, Debian, Linux Mint, Pop!_OS, elementary OS | deb package |
+| Red Hat/Fedora | Fedora, CentOS, RHEL, Rocky Linux, AlmaLinux | dnf + script |
+| Arch Linux | Arch, Manjaro, EndeavourOS, Garuda | pacman + script |
+| openSUSE | openSUSE Leap, openSUSE Tumbleweed | zypper + script |
+| Gentoo | Gentoo, Funtoo | emerge + script |
+| Alpine | Alpine Linux | apk + script |
+| Slackware | Slackware, Slackware-based | pkgtool + script |
+| Void Linux | Void Linux | xbps + script |
+| Solus | Solus | eopkg + script |
+| NixOS | NixOS | nix-env + script |
+| **Any other Linux** | All others | Universal script |
 
 ## Usage
 
