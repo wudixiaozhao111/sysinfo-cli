@@ -83,7 +83,7 @@ install_via_deb() {
     # Download deb package
     TMP_DEB=$(mktemp /tmp/sysinfo-cli.XXXXXX.deb)
     echo "Downloading sysinfo-cli..."
-    curl -sL -o "$TMP_DEB" "https://github.com/sysinfo/sysinfo-cli/releases/download/v1.0.0/sysinfo-cli_1.0.0-1_all.deb"
+    curl -sL -o "$TMP_DEB" "https://github.com/wudixiaozhao111/sysinfo-cli/releases/download/v1.0.0/sysinfo-cli_1.0.0-1_all.deb"
     
     # Install dependencies
     $SUDO apt-get update
@@ -235,5 +235,5 @@ esac
 echo ""
 echo "=============================================="
 echo "  Thanks for using SysInfo CLI!"
-echo "  https://github.com/sysinfo/sysinfo-cli"
+echo "  https://github.com/wudixiaozhao111/sysinfo-cli"
 echo "=============================================="
